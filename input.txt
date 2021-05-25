@@ -1,0 +1,12 @@
+6 3 2
+Akshay is the husband of Bhavya
+Connor is the son of Akshay
+Diya is the daughter of Bhavya
+Diya is the wife of Erwin
+Faisal is the son of Diya
+Gautam is the brother of Faisal
+Brother of Diya
+Son of Diya
+Father of Erwin
+Connor and Gautam
+Erwin and Bhavya
