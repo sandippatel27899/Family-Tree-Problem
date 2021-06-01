@@ -1,7 +1,7 @@
 # Family-Tree-Problem
 
 ## problem statement : 
-written in problem_statement.txt
+written in Pdf
 
 ## Inputs :
 you can add your custom inputs in input.txt 
