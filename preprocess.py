@@ -3,12 +3,23 @@ from challenges import get_related_person
 from challenges import get_relation
 from relations import all_persons
 
+valid_relations = set(["father","mother","brother","sister","husband","wife","son","daughter"])
+
+def is_relation(relation):
+    if relation not in valid_relations:
+        return False
+    else:
+        return True
+        
 def preprocess_relation(line):
     line = line.split(' is the ')
     person_1 = line[0]
     line = line[1].split(' of ')
     relation = line[0].strip()
     person_2 = line[1].strip()
+    print(" building relatuion", person_1, person_2, relation)
+    if not is_relation(relation):
+        raise ValueError
     build_relation(person_1, person_2, relation)
 
 def preprocess_challenge1(line):
